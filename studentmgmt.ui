@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentMgmt</class>
+ <widget class="QWidget" name="studentMgmt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+    background-color:rgba(0,0,0,0);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableView" name="tableView">
+     <property name="styleSheet">
+      <string notr="true">QTableView{
+    background-color:rgba(0,0,0,0);
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTipDuration">
+      <number>-1</number>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+background-color: white;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>管理类型</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>成员管理</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>入团申请</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btn_del">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color:rgba(0,0,0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string>移出社团</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_up">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color:rgba(0,0,0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string>任命</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btn_agree">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color:rgba(0,0,0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string>同意</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_refuse">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color:rgba(0,0,0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string>拒绝</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="btn_save">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color:rgba(0,0,0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string>导出</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_input">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color:rgba(0,0,0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string>导入</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

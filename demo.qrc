@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>demo/main_about.png</file>
+        <file>demo/main_company.png</file>
+        <file>demo/main_config.png</file>
+        <file>demo/main_data.png</file>
+        <file>demo/main_exit.png</file>
+        <file>demo/main_help.png</file>
+        <file>demo/main_main.png</file>
+        <file>demo/main_person.png</file>
+        <file>demo/exit.png</file>
+        <file>demo/max.png</file>
+        <file>demo/min.png</file>
+        <file>demo/before.png</file>
+        <file>demo/next.png</file>
+        <file>images/img1.jpg</file>
+        <file>images/img2.jpg</file>
+        <file>images/img3.jpg</file>
+        <file>images/img4.jpg</file>
+        <file>images/img5.jpg</file>
+        <file>images/img6.jpg</file>
+        <file>images/img7.jpg</file>
+        <file>images/img8.jpg</file>
+    </qresource>
+</RCC>
